@@ -7,7 +7,7 @@ var proxy = httpProxy.createProxyServer();
 http.createServer(function(req, res) {
     proxy.web(req, res, { 
         changeOrigin: true,
-        target: 'https://gamemag.ru/' 
+        target: 'https://blog.unsteelix.keenetic.link/' 
     });
 }).listen(8008);
 
