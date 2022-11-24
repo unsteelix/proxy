@@ -1,0 +1,1 @@
+{"id":"8f62b8b1-c609-4694-8159-92fe8d6727a2","space":38047,"runtime":"nodejs14.x","name":"proxy","path":"epcy5z","project":"a06sm505","account":"144798365827","region":"eu-central-1","deps":["http-proxy@^1.18.1","express@^4.18.2","express-http-proxy@^1.6.3"],"envs":null,"public":true,"log_level":"off","cron":""}
