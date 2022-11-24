@@ -2,7 +2,7 @@ let proxy = require('express-http-proxy')
 var express = require("express");
 var app = express();
 
-app.use('/', proxy('http://picola2.unsteelix.keenetic.link/'))
+app.use('/', proxy('https://picola2.unsteelix.keenetic.link/'))
 //app.listen(8008);
 module.exports = app;
 
